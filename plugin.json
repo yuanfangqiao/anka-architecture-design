@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "id": "anka-architecture-design",
+  "name": "架构",
+  "version": "0.1.0",
+  "icon": "waypoints",
+  "description": "用六步 2.5D 动态架构图介绍 Anka 的插件化 Agent 行动路径",
+  "kind": "app",
+  "system": false,
+  "backend": { "entry": "server/main.py" },
+  "ui": {
+    "entry": "web/index.ts",
+    "dock": { "order": 1 },
+    "sidebar": true,
+    "route": "/architecture"
+  },
+  "permissions": []
+}
